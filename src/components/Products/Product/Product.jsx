@@ -44,7 +44,7 @@ const Product = ({ product, onAddToCart }) => {
           aria-label='Add to Cart'
           onClick={() => onAddToCart(product.id, 1)}
         >
-          <AddShoppingCart />
+          <AddShoppingCart style={{ color: 'rgb(255, 115, 0)' }} />
         </IconButton>
       </CardActions>
     </Card>

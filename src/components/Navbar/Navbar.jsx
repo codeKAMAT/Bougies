@@ -34,7 +34,7 @@ const Navbar = ({ totalItems }) => {
               height='40px'
               className={classes.image}
             />
-            <p className={classes.brand}>BuddyWheels</p>
+            <p className={classes.brand}>Bougies</p>
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (

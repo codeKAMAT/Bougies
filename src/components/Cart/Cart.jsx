@@ -66,6 +66,10 @@ const Cart = ({
             </Button>
           </div>
         </div>
+        <br />
+        <br />
+
+        <br />
       </>
     )
   }

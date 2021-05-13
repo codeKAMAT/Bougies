@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('./bg.jpeg');
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner > div > div {
+  align-items: center;
+}
+
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+
+.banner .brand img {
+  width: 100%;
+}
+
+.banner .title {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+}
+.banner span {
+  color: rgb(255, 115, 0);
+}
+
+@media (min-width: 800px) {
+  .banner .title {
+    font-size: 87px;
+    color: rgb(255, 255, 255);
+  }
+  .banner span {
+    color: rgb(255, 115, 0);
+  }
+}

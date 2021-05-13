@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+![Logo](src/assets/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bougies
 
-## Available Scripts
+#### See Live Site: <https://bougies.netlify.app/>
 
-In the project directory, you can run:
+#### Description:
 
-### `npm start`
+An E-Commerce for scented candles, Bougies is a web app implemented using react.js commerce.js and stripe that work like a e-commerce.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Customers can visit web stores from the comfort of their homes and shop as they sit in front of the computer.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Customers can buy a variety of scented candles from online store. The main objective of this project is to design a dynamic, responsive E-commerce website.
 
-### `npm test`
+This project aims at developing a highly cost-effective E-commerce website for a scented candles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Customers can easily search products and make their own carts and can pay online, as we provide secure online transactions.
 
-### `npm run build`
+Data Security is maintained to a relatively high level by implementing it at the Database level, so as to ensure that only admin have access to confidential client information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The following functionalities have been added to the app-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ADD PRODUCT:
+- CART:
+- CHECKOUT:
+- PAYMENT GATWAY
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### How to develop it
 
-### `npm run eject`
+- Clone on your local machine by using `git@github.com:codeKAMAT/Bougies.git`
+- Navigate into the main directory
+- Run `npm install` to install node modules
+- Run `npm start` to run it locally then will open automatclly on your browser on `localhost:3000` port
+- Run `npm run build` to create a production build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Tech Stack-
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Commerce.js
+- Material UI
+- Stripe
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Screens :computer:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Technology overview](ScreenShot/Shot0.png)
 
-## Learn More
+![Technology overview](ScreenShot/shot1.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Technology overview](ScreenShot/Shot2.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Technology overview](ScreenShot/Shot3.png)
 
-### Code Splitting
+![Technology overview](ScreenShot/Shot4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Technology overview](ScreenShot/Shot5.png)
